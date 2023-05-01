@@ -1,10 +1,14 @@
-.item-1 {
-	display: flex;
-	justify-content: center;
-	align-item: center;
+/* your css code here */
+.holder {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh; /* Set a height so that the holder takes up the full height of the viewport */
 }
-.holder{
-	display: flex;
-	justify-content: center;
-	align-item: center;
+
+.item-1 {
+/* Style the item as needed */
+font-size: 24px;
+font-weight: bold;
+text-align: center;
 }
